@@ -2,7 +2,6 @@ import random
 import words, hangman
 lives = 6
 end =True
-#word_list = ["aardvark", "baboon", "camel"]
 word_list = words.word_list
 choose_word = random.choice(word_list)
 
@@ -17,7 +16,7 @@ print(f"{' '.join(word)}\n")
 while end:
     letter = input("Guess a letter: ").lower()
     if letter in guessed_word:
-      print('You already guessed this letter, try another one.')
+      print(f'You already guessed this letter \'{letter}\', try another one.')
     else:
       guessed_word.append(letter)
       for i in range(length):
@@ -28,7 +27,7 @@ while end:
         print('you won')
       if letter not in choose_word:
         lives-=1
-        print(f"\nOpps!!!, You guessed the wrong letter. You have {lives} lives remaining.")
+        print(f"\nOpps!!! You guessed the wrong letter. You have {lives} lives remaining.")
         if lives == 0:
           end = False
           print("You lose")
@@ -39,7 +38,7 @@ while end:
       
       print(hangman.stages[lives])
 
-      
+
 """
 Connect with me on 
 [LinkedIn](www.linkedin.com/in/gunta-srikanth) 
