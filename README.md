@@ -1,5 +1,7 @@
 # 100 Days of Python Learning
 
+[![Progress](https://img.shields.io/badge/Progress-6%25-brightgreen)]()
+
 Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next 100 days, I'm committing to learn Python every day to enhance my skills and embrace continuous learning. Why am I doing this? Well, Python is an incredibly versatile and powerful programming language, and I'm eager to unlock its potential.
 
 ## My goals for this challenge:
@@ -29,3 +31,8 @@ Feel free to join me on this journey! If you're interested, you can:
 - Share your progress and solutions by creating pull requests.
 
 Let's learn and grow together! 🌱
+
+## Contact me:
+<p align="left">
+<a href="https://linkedin.com/in/gunta-srikanth" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gunta-srikanth" height="30" width="40" /></a>
+</p>
