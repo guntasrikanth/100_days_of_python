@@ -21,6 +21,7 @@ Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next
  - Day 4: [Rock, Paper and Scissors](https://github.com/guntasrikanth/100_days_of_python/blob/422f9ab4fda536c288d82ca537d8530932f37a62/Day%204-%20Rock%2C%20Paper%20and%20Scissors%20game)
  - Day 5: [Password Generator](https://github.com/guntasrikanth/100_days_of_python/blob/422f9ab4fda536c288d82ca537d8530932f37a62/Day%205%20-%20Password%20Generator)
  - Day 6: [Maze Solver](https://github.com/guntasrikanth/100_days_of_python/blob/59fd16668961426b7690e6ecbfbbc8e843426b7e/Day%206%20-%20Maze%20solver)
+ - Day 7: [Hangman Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%207%20-%20Hangam%20Game)
 
 
 ## Getting Involved
