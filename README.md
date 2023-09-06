@@ -1,13 +1,12 @@
-100 Days of Daily Problem-Solving
+100 Days of Python Learning
 
-Progress
+Why am I doing this? Well, Python is an incredibly versatile and powerful programming language, and I'm eager to unlock its potential. Over the next 100 days, I'm committing to daily coding practice, learning, and experimentation.
 
-Welcome to my 100-day problem-solving challenge! 🚀 Over the next 100 days, I'm committing to solving one problem every day to enhance my skills and embrace continuous learning.
-Goals
-
-    Solve a diverse range of problems from different domains.
-    Strengthen my problem-solving and critical thinking abilities.
-    Document my journey and progress to track improvements.
+My goals for this challenge:
+1️⃣ Master the fundamentals of Python.
+2️⃣ Build practical projects to apply what I've learned.
+3️⃣ Explore Python libraries and frameworks.
+4️⃣ Share my progress and insights with you all!
 
 Progress
 
