@@ -1,0 +1,15 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+choice_1 = input("You're at cross road. Where you want to go? Left or Right? ")
+if choice_1 == 'left':
+  choice_2 = input("Do you want to wait for a boat or you'll swim yourself? ")
+  if choice_2 == 'swim':
+    choice_3 = input("Which color of door you want to choice. Blue, Purple, White? ")
+    if choice_3 == 'blue':
+      print("Congratulations!!!. You won the game.")
+    else:
+      print("Opps!!. You choice the wrong color. Game over.")
+  else:
+    print("Game over. Always work hard to win")
+else:
+  print("Game over. You choice the wrong path")
