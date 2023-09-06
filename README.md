@@ -14,9 +14,11 @@ Why am I doing this? Well, Python is an incredibly versatile and powerful progra
  - Day 2: [Tip Calculator](https://github.com/guntasrikanth/100_days_of_python/blob/aa627357807e5cd2abff0e5832024101d94e96c1/Day%202%20-%20Tip%20Calculator)
 
 
-## Feel free to join me on this journey! If you're interested, you can:
+## Getting Involved
 
-   - Fork this repository and start your own 100-day challenge.
-   - Share your progress and solutions by creating pull requests.
+Feel free to join me on this journey! If you're interested, you can:
+
+- Fork this repository and start your own 100-day challenge.
+- Share your progress and solutions by creating pull requests.
 
 Let's learn and grow together! 🌱
