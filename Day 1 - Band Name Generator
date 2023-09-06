@@ -1,4 +1,4 @@
-print("Welcome to the band name generator...")
+print("Welcome to the band name generator..."
 
 city = input("Enter the city you grown up in\n")
 pet = input("Enter the name of your pet\n")
