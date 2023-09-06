@@ -5,3 +5,12 @@ per = int(input("What percentage of tip would you like to give? 10, 12, or 15? "
 tip = bill * (per/100)
 pay = (bill + tip )/people
 print("Each person has to pay $",round(pay,2))
+
+
+"""
+Connect with me on 
+[LinkedIn](www.linkedin.com/in/gunta-srikanth) 
+for more coding challenges, updates on my 100 days of learning journey.
+
+Stay tuned for tomorrow's coding challenge. Happy coding!
+"""
