@@ -15,3 +15,12 @@ a8"     "" 88 88P'    "8a 88P'    "8a a8P_____88 88P'   "Y8
               88                                             
               88           
 """
+
+
+"""
+Connect with me on 
+[LinkedIn](www.linkedin.com/in/gunta-srikanth) 
+for more coding challenges, updates on my 100 days of learning journey.
+
+Stay tuned for tomorrow's coding challenge. Happy coding!
+"""

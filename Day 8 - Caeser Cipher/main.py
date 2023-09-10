@@ -26,3 +26,12 @@ while info=='yes':
   info = input("Type \'yes\' if you want to go again. Otherwise type \'no\'\n").lower()
 
 print("Good Bye!!")
+
+
+"""
+Connect with me on 
+[LinkedIn](www.linkedin.com/in/gunta-srikanth) 
+for more coding challenges, updates on my 100 days of learning journey.
+
+Stay tuned for tomorrow's coding challenge. Happy coding!
+"""
