@@ -22,7 +22,7 @@ Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next
  - Day 5: [Password Generator](https://github.com/guntasrikanth/100_days_of_python/blob/422f9ab4fda536c288d82ca537d8530932f37a62/Day%205%20-%20Password%20Generator)
  - Day 6: [Maze Solver](https://github.com/guntasrikanth/100_days_of_python/blob/59fd16668961426b7690e6ecbfbbc8e843426b7e/Day%206%20-%20Maze%20solver)
  - Day 7: [Hangman Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%207%20-%20Hangam%20Game)
- - Day 8: [Ceaser Cipher](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%208%20-%20Caeser%20Cipher))
+ - Day 8: [Ceaser Cipher](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%208%20-%20Caeser%20Cipher)
  - Day 9: [Secret Auction](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%209%20-%20Secret%20Auction)
 
 
