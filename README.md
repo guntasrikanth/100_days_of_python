@@ -1,6 +1,6 @@
 # 100 Days of Python Learning
 
-[![Progress](https://img.shields.io/badge/Progress-6%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-8%25-brightgreen)]()
 
 Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next 100 days, I'm committing to learn Python every day to enhance my skills and embrace continuous learning. Why am I doing this? Well, Python is an incredibly versatile and powerful programming language, and I'm eager to unlock its potential.
 
