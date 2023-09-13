@@ -118,10 +118,11 @@ def blackjack():
     print(f"computer's final hand: {computer}, final score: {computer_score}")
     compare(user_score, computer_score)
     
-play_again = input("Do you want to Blackjack game? Type \'y\' or \'n\'?  ")
+play_again = 'y'
 while play_again == 'y':
     os.system('cls')
     blackjack()
+    play_again = input("Do you want to Blackjack game? Type \'y\' or \'n\'?  ")
     
 
 """
