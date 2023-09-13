@@ -2,17 +2,17 @@ import random
 from art import logo
 import os
 
-def intro():
+def game():
     os.system('cls')
     print(logo)
     print("Welcome to the Number Guessing Game!!")
     print("I'm thinking of a number between 1 to 100.")
     computer_guessed_number = random.randint(1,100)
-    #print(computer_guessed_number)
+    print(computer_guessed_number)
     difficulty_level(computer_guessed_number)
     play_game = input('Want to play the game again? Type \'y\' or \'n\'?  ')
     if play_game == 'y':
-        intro()
+        game()
     else:
         print("Thanks for playing the game. Have a great day.")
     
@@ -27,18 +27,31 @@ def difficulty_level(computer_guessed_number):
     else:
         attempts = 5
         guess(attempts,computer_guessed_number)
+        
+def mid_range(computer_guessed_number):
+    lower_range = []
+    higher_range = []
+    for i in range(1,6):
+        lower_range.append(computer_guessed_number-i) 
+        higher_range.append(computer_guessed_number+i) 
+    return lower_range,higher_range
+        
 
 def guess(attempts,computer_guessed_number):
     is_game_over = False
     while not is_game_over and attempts != 0:
         print(f"You have {attempts} attempts remaining to guess the number.")
         user_guessed_number = int(input("Make a guess: "))
+        lower_range, higher_range = mid_range(computer_guessed_number)
         if user_guessed_number == computer_guessed_number:
             print("Wooh!!! You guessed it correct.")
             print(f"Computer guessed: {computer_guessed_number}")
             is_game_over =True
-        elif user_guessed_number + 5 == computer_guessed_number or user_guessed_number - 5 == computer_guessed_number:
-            print("Very close in guessing the number.")
+        elif user_guessed_number in lower_range:
+            print("Very close in guessing the number, incease a bit")
+            attempts -= 1
+        elif user_guessed_number in higher_range:
+            print("Very close in guessing the number, decrease a bit")
             attempts -= 1
         elif user_guessed_number > computer_guessed_number:
             print("Too high.")
@@ -52,7 +65,7 @@ def guess(attempts,computer_guessed_number):
         print("You ran out of guesses, you lose.")
         print(f"Computer guessed: {computer_guessed_number}")
     
-intro()
+game()
     
 
 """
