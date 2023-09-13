@@ -26,7 +26,9 @@ Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next
  - Day 9: [Secret Auction](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%209%20-%20Secret%20Auction)
  - Day 10: [Calculator](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2010%20-%20Calculator)
  - Day 11: [Blackjack Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2011%20-%20Blackjack%20Game)
-- Day 12: [Number Guessing Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2011%20-%20Numberk%20Game)
+- Day 12: [Number Guessing Game](
+https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2012%20-%20Guessing%20Number)
+
 ## Getting Involved
 
 Feel free to join me on this journey! If you're interested, you can:
