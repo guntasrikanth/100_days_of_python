@@ -35,7 +35,11 @@ def guess(attempts,computer_guessed_number):
         user_guessed_number = int(input("Make a guess: "))
         if user_guessed_number == computer_guessed_number:
             print("Wooh!!! You guessed it correct.")
+            print(f"Computer guessed: {computer_guessed_number}")
             is_game_over =True
+        elif user_guessed_number + 5 == computer_guessed_number or user_guessed_number - 5 == computer_guessed_number:
+            print("Very close in guessing the number.")
+            attempts -= 1
         elif user_guessed_number > computer_guessed_number:
             print("Too high.")
             attempts -= 1
