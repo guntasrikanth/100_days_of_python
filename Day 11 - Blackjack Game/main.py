@@ -70,21 +70,21 @@ def calculate(card):
 
 def compare(user_score,computer_score):
     if user_score > 21 and computer_score > 21:
-        print("Both Busted, you lose")
+        print("Both Busted, you lose 🙆‍♂️")
     elif user_score == computer_score:
-        print("Draw")
+        print("Draw 🤝")
     elif computer_score ==0:
-        print("You lose, opponent has Blackjack.")
+        print("You lose, opponent has Blackjack 😠")
     elif user_score == 0:
-        print("You Won with a Blackjack")
+        print("You Won with a Blackjack 😎")
     elif user_score > 21:
-        print("You Busted, you lose")
+        print("You Busted, you lose 😩")
     elif computer_score > 21:
-        print("Computer Busted, you won")
+        print("Computer Busted, you won 😁")
     elif user_score > computer_score:
-        print("You win")
+        print("You win 😁")
     else:
-        print("You lose")
+        print("You lose 😩")
 
 def blackjack():
     computer = []
@@ -110,7 +110,7 @@ def blackjack():
             else:
                 is_game_over = True
     
-    while computer_score!=0 or computer_score<17:
+    while computer_score!=0 and computer_score<17:
         computer.append(random.choice(cards))
         computer_score = calculate(computer)  
         
@@ -123,6 +123,8 @@ while play_again == 'y':
     os.system('cls')
     blackjack()
     play_again = input("Do you want to Blackjack game? Type \'y\' or \'n\'?  ")
+    
+print("Thank you for playing the game. Bye Bye 👋")
     
 
 """
