@@ -1,6 +1,6 @@
 # 100 Days of Python Learning
 
-[![Progress](https://img.shields.io/badge/Progress-11%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-12%25-brightgreen)]()
 
 Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next 100 days, I'm committing to learn Python every day to enhance my skills and embrace continuous learning. Why am I doing this? Well, Python is an incredibly versatile and powerful programming language, and I'm eager to unlock its potential.
 
@@ -26,6 +26,8 @@ Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next
  - Day 9: [Secret Auction](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%209%20-%20Secret%20Auction)
  - Day 10: [Calculator](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2010%20-%20Calculator)
  - Day 11: [Blackjack Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2011%20-%20Blackjack%20Game)
+- Day 12: [Number Guessing Game](
+https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2012%20-%20Guessing%20Number)
 
 ## Getting Involved
 
