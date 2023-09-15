@@ -1,5 +1,5 @@
 import random
-from art import logo
+from Coffe_machine import logo
 import os
 
 def game():
