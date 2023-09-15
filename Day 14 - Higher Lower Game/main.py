@@ -1,4 +1,4 @@
-from Coffe_machine import logo, vs
+from art import logo, vs
 from game_data import data
 import random
 import os

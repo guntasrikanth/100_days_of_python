@@ -10,7 +10,7 @@
 ## Cards are not removed from the deck as they are drawn.
 ## The computer is the dealer.
 
-from Coffe_machine import logo
+from art import logo
 import random
 import os
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
