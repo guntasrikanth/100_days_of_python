@@ -3,7 +3,7 @@ question_data = [
         "category": "History",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "The Cold War ended with Joseph Stalin&#039;s death.",
+        "question": "The Cold War ended with Joseph Stalin death.",
         "correct_answer": "False",
         "incorrect_answers": [
             "True"

@@ -3,6 +3,7 @@ from question_model import Question
 from quiz_brain import QuizBrain
 
 question_bank = []
+print("Welcome to the Quiz Game. Hope you had great day.")
 for i in question_data:
     question_text = i["question"]
     answer = i["correct_answer"]
