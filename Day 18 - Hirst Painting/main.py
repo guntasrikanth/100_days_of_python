@@ -33,8 +33,4 @@ for col in range(10):
     timmy.forward(500)
     timmy.setheading(0)
 
-
-
 screen.exitonclick()
-
-
