@@ -1,6 +1,6 @@
 # 100 Days of Python Learning
 
-[![Progress](https://img.shields.io/badge/Progress-15%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-19%25-brightgreen)]()
 
 Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next 100 days, I'm committing to learn Python every day to enhance my skills and embrace continuous learning. Why am I doing this? Well, Python is an incredibly versatile and powerful programming language, and I'm eager to unlock its potential.
 
@@ -29,6 +29,10 @@ Hi I'm Srikanth 👋. Welcome to my 100-days Python learning! 🚀 Over the next
 - Day 12: [Number Guessing Game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2012%20-%20Guessing%20Number)
 - Day 14: [Higher Lower game](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2014%20-%20Higher%20Lower%20Game)
 - Day 15: [Coffe Machine](https://github.com/guntasrikanth/100_days_of_python/blob/main/Day%2015%20-%20Coffe_machine.py)
+- Day 16: [Coffe Machine using OOPs](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2016%20-%20coffee%20machine%20using%20OOPs)
+- Day 17: [Quiz](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2017%20-%20Quiz)
+- Day 18: [Hirst Spot Painting](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2018%20-%20Hirst%20Painting)
+- Day 19: [Turtle Racing](https://github.com/guntasrikanth/100_days_of_python/tree/main/Day%2019%20-%20Turtle%20Racing)
 
 ## Getting Involved
 
