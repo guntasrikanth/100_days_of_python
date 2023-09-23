@@ -26,8 +26,10 @@ while race_on:
             turtle_color = turtle.pencolor()
             if turtle_color == user_choice:
                 print(f"you won. The {turtle_color} turtle won the race")
+                turtle.write("You won!", align="right", font=("Cooper Black", 25, "italic"))
             else:
                 print(f"You lost. The {turtle_color} turtle won the race")
+                turtle.write("You lose!", align="right", font=("Cooper Black", 25, "italic"))
         distance = random.randint(0,10)
         turtle.forward(distance)
 
