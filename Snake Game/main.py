@@ -3,7 +3,6 @@ from turtle import Screen
 from snake import Snake
 from food import Food
 from scoreboard import Scoreboard
-wall = 280
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -32,7 +31,7 @@ while game_on:
         snake.extend()
         scoreboard.increase_score()
 
-    if snake.head.xcor() > wall or snake.head.xcor() < -wall or snake.head.ycor() > wall or snake.head.ycor() < -wall:
+    if snake.head.xcor() > 285 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -285:
         game_on = False
         scoreboard.game_over()
 
