@@ -13,9 +13,9 @@ class Scoreboard(Turtle):
 
     def update_scoreboard(self):
         self.clear()
-        self.goto(-30, 240)
+        self.goto(-100, 240)
         self.write(arg=f"{self.left_score}", align="right", font=('Arial', 40, 'normal'))
-        self.goto(60, 240)
+        self.goto(100, 240)
         self.write(arg=f"{self.right_score}", align="right", font=('Arial', 40, 'normal'))
 
     def right_score_increase(self):
@@ -27,6 +27,6 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def game_over(self, player):
-        self.color('green')
+        self.color('red')
         self.goto(0, 0)
         self.write(f"Game Over. {player} won!!", align="center", font=('Arial', 12, 'normal'))

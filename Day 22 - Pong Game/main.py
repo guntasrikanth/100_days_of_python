@@ -9,6 +9,8 @@ screen = Screen()
 screen.setup(width=800, height=600)
 screen.title("Pong Game")
 screen.bgcolor("black")
+pic ='pong.jpeg'
+#screen.bgpic(pic)
 screen.tracer(0)
 
 seperator = Seperator()
