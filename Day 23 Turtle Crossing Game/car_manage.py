@@ -3,8 +3,7 @@ import random
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
-MOVE_INCREMENT = 10
-Y_POSITIONS = [0, 40, 80, 120, 150, 180, -40, -80, -120, -150, -180]
+MOVE_INCREMENT = 3
 
 
 class CarManager:
@@ -25,7 +24,8 @@ class CarManager:
 
     def move(self):
         for cars in self.all_cars:
-            cars.backward(STARTING_MOVE_DISTANCE)
+            cars.backward(self.car_speed)
 
     def increase_speed(self):
         self.car_speed += MOVE_INCREMENT
+
