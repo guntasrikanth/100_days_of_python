@@ -11,7 +11,6 @@ screen.setup(width=750, height=600)
 screen.bgpic("blank_states_img.gif")
 
 guessed_states = []
-unguessed_states = []
 guessed_on = True
 data = pandas.read_csv("50_states.csv")
 state = data['state'].to_list()
@@ -20,9 +19,10 @@ state = data['state'].to_list()
 
 
 def exit_fun(guessed_states, state):
-    for st in state:
-        if st not in guessed_states:
-            unguessed_states.append(st)
+    unguessed_states = [st for st in state if st not in guessed_states]
+    # for st in state:
+    #     if st not in guessed_states:
+    #         unguessed_states.append(st)
     new_data = pandas.DataFrame(unguessed_states)
     new_data.to_csv("Unguessed_states")
     tim.color('red')
