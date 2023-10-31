@@ -5,7 +5,14 @@ import tkinter
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
 def save():
-    pass
+    webiste_data = website_entry.get()
+    email_data = email_entry.get()
+    password_data = password_entry.get()
+    with open('data.txt', mode='a') as file:
+        file.write(f"\n {webiste_data} | {email_data} | {password_data}")
+
+    website_entry.delete(0,50)
+    password_entry.delete(0,50)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -48,7 +55,7 @@ password_entry.grid(row=3, column=1)
 generate_button = tkinter.Button(text="Generator Password", width=15)
 generate_button.grid(row=3, column=2)
 
-add_button = tkinter.Button(text="Add", width=35)
+add_button = tkinter.Button(text="Add", width=35, command=save)
 add_button.grid(row=4, column=1, columnspan=2)
 
 window.mainloop()
