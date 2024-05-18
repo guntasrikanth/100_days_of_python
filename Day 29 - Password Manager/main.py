@@ -1,6 +1,31 @@
 import tkinter
+from tkinter import messagebox
+import random
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+nr_letters = random.randint(8, 10)
+nr_symbols = random.randint(2, 4)
+nr_numbers = random.randint(2, 4)
+
+password_list = []
+
+password_char = [password_list.append(random.choice(letters)) for i in range(nr_letters)]
+
+password_sym = [password_list.append(random.choice(symbols)) for i in range(nr_symbols)]
+
+password_num = [password_list.append(random.choice(numbers)) for i in range(nr_numbers)]
+
+random.shuffle(password_list)
+
+password = ""
+for char in password_list:
+  password += char
+
+print(f"Your password is: {password}")
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
@@ -8,11 +33,16 @@ def save():
     webiste_data = website_entry.get()
     email_data = email_entry.get()
     password_data = password_entry.get()
-    with open('data.txt', mode='a') as file:
-        file.write(f"\n {webiste_data} | {email_data} | {password_data}")
-
-    website_entry.delete(0,50)
-    password_entry.delete(0,50)
+    if len(webiste_data) < 1 or len(email_data) < 1 or len(password_data) < 1:
+        messagebox.showerror(title="Error", message="Don't leave any field empty.")
+    else:
+        is_ok = messagebox.askokcancel(title=webiste_data, message=f"The entered details are:\nEmail: {email_data}\n"
+                                                                 f"Password: {password_data}\nClick Ok to save")
+        if is_ok:
+            with open('data.txt', mode='a') as file:
+                file.write(f"{webiste_data} | {email_data} | {password_data} \n")
+            website_entry.delete(0, 50)
+            password_entry.delete(0, 50)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -26,10 +56,10 @@ canvas.create_image(100, 100, image=logo)
 canvas.grid(row=0, column=1)
 
 website_label = tkinter.Label(text="Website: ")
-website_label.grid(row=1,column=0)
+website_label.grid(row=1, column=0)
 website_label.config(pady=10)
 
-email_label= tkinter.Label(text="Email/Username: ")
+email_label = tkinter.Label(text="Email/Username: ")
 email_label.grid(row=2, column=0)
 email_label.config(pady=10)
 
